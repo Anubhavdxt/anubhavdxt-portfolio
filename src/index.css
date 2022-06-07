@@ -4,7 +4,7 @@
   --font-base: "DM Sans", sans-serif;
 
   --primary-color: #edf2f8;
-  --secondary-color: #313bac;
+  --secondary-color: #60527f;
   --black-color: #030303;
   --lightGray-color: #e4e4e4;
   --gray-color: #6b7688;
@@ -17,4 +17,15 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+}
+
+*::selection {
+  color: #fff;
+  background: #60527f;
+}
+
+*::-moz-selection {
+  /* Code for Firefox */
+  color: #fff;
+  background: #60527f;
 }
